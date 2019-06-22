@@ -9,6 +9,11 @@
 }
 header {
     float: left;
+    padding: 30px;
+}
+section {
+    margin: 0 auto;
+    width: 960px;
 }
 nav {
     float: right;
