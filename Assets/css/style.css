@@ -7,17 +7,37 @@
     display: block;
     clear: both;
 }
-header {
+h1 {
     float: left;
-    padding: 30px;
-}
-section {
-    margin: 0 auto;
-    width: 960px;
+    /* padding: 30px; */
 }
 nav {
     float: right;
 }
 li {
     display: inline;
+}
+.wrapper {
+    background-image: url("Sports2.png");
+    background-repeat: repeat;
+    border-top: 2px solid #dddddd;
+}
+img {
+    float:left;
+    margin-right: 10px;
+}
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    z-index: 1;
+    margin: 20px auto 50px;
+    width: 960px;
+    }
+footer {
+    /* height: 50px; */
+    text-align: center;
+    padding: 30px 5px 5px;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
 }
