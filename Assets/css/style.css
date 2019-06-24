@@ -15,10 +15,10 @@ header {
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-nav, p, .navbar {
+nav, p, .navbar, form {
     color: #777777;
 }
-nav, p, footer {
+nav, p, footer, form, input {
     font-family: Arial, Helvetica, sans-serif;
 }
 p {
@@ -29,7 +29,7 @@ h1 {
     float: left;
     padding: 15px;
     margin: 0;
-    color: white;
+    color:#ffffff;
     background-color: #4aaaa5;
 }
 h2 {
@@ -39,6 +39,7 @@ h2 {
 nav {
     float: right;
     padding-top: 5px;
+    margin-bottom: 0px;
 }
 li {
     display: inline;
@@ -61,7 +62,7 @@ img {
     margin-right: 10px;
 }
 section {
-    padding: 20px;
+    padding: 10px 20px 20px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     z-index: 1;
@@ -69,8 +70,14 @@ section {
     margin-bottom: 0px;
     width: 960px;
     }
+input[type=text] {
+    width: 960px;
+    margin: 5px 0px 15px;
+    color: #777777;
+}
 footer {
-    color: white;
+    font-size: 10px;
+    color:#ffffff;
     text-align: center;
     padding: 30px 5px 5px;
     background-color: #777777;
