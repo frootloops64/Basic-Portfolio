@@ -31,7 +31,8 @@ nav,
 p,
 footer,
 form,
-input, textarea {
+input,
+textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,17 +41,19 @@ p {
 }
 
 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.25em;
     float: left;
     padding: 15px;
     margin: 0;
-    color: #ffffff;
+    color: orange;
     background-color: #4aaaa5;
 }
 
 h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.25em;
-    color: #4aaaa5;
+    color: navy;
 }
 
 nav {
@@ -133,6 +136,7 @@ textarea {
     margin-top: 5px;
     padding: 2px;
 }
+
 input[type=submit] {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
